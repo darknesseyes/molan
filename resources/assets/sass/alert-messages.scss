@@ -1,0 +1,94 @@
+
+
+.alert-message
+{
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #eee;
+
+    h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.alert-message code
+{
+    background-color: $message-code;
+    border-radius: 3px;
+}
+
+
+.alert-message-success
+{
+    background-color: $message-success;
+    border-color: $message-success-border;
+
+    h4 {
+       color: $message-success-border; 
+    }
+}
+
+
+.alert-message-danger
+{
+    background-color: $message-danger;
+    border-color: $message-danger-border;
+
+    h4 {
+        color: $message-danger-border;
+    }
+}
+
+
+.alert-message-warning
+{
+    background-color: $message-warning;
+    border-color: $message-warning-border;
+
+    h4 {
+        color: $message-warning-border;
+    }
+}
+
+
+
+.alert-message-info
+{
+    background-color: $message-info;
+    border-color: $message-info-border;
+
+    h4 {
+        color: $message-info-border;
+    }
+}
+
+
+
+.alert-message-default
+{
+    background-color: $message-default;
+    border-color: $message-default-border;
+
+    h4 {
+        color: $message-degault-h4;
+    }
+}
+
+
+
+.alert-message-notice
+{
+    background-color: $message-notice;
+    border-color: $message-notice-border;
+
+    h4 {
+        color: $message-notice-h4;
+    }
+}
