@@ -68,8 +68,15 @@
          <button 
 
          @if($user->active == 0) class="btn btn-danger" @endif
-         @if($user->active == 1) class="btn btn-success" @endif
-         >Toggle</button>
+         @if($user->active == 1) class="btn btn-success" @endif>
+
+         @if($user->active == 0)
+          Activate
+         @endif
+         @if($user->active == 1)
+          Deactivate
+         @endif
+         </button>
          </form>
          @endif
           @if(count($user->roles)== 0)

@@ -68,9 +68,10 @@ public function __construct(){
          $newlyCreatedUser = User::where('email',$request->email)->get();
          $user->roles()->attach($request->role);
          Alert::success('New user has been added','success');
-        });
-         return redirect('/users/index');
+         return redirect('/users');
 
+        });
+        return redirect('/users');
     }
 
     /**
